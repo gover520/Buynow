@@ -1,0 +1,21 @@
+
+extends ./layout
+
+block content
+
+    .header
+        h1  buynow search
+        span.search
+            input(type="text", placeholder="搜点什么", id="search")
+            i.glyphicon.glyphicon-search
+    #container.container
+        for item in data
+            a.list-group-item(href="/detail?id=#{item.id}", target="_blank") #{item.name}
+
+
+    .footer
+        p @copyright 2016 gover520 & tuzkiss
+
+
+block script
+    script(src="/scripts/index.js")
