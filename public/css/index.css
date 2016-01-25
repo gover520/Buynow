@@ -1,0 +1,80 @@
+
+html, body, div, p, span {
+    margin: 0;
+    padding: 0;
+}
+
+
+.header {
+    height: 300px;
+    background-color: #37BD94;
+    background: -webkit-gradient(linear,0 0,100% 0,from(#3bb1dd),to(#fec454));
+    background: -moz-linear-gradient(left,#3BB1DD 0,#FEC454 100%);
+    padding-top: 50px;
+    position: relative;
+}
+
+.header h1 {
+    text-align: center;
+    color:#fff;
+    text-shadow: 0 1px 3px #999;
+    font-size:45px;
+    font-family: "Microsoft YaHei";
+}
+
+.header p {
+    text-align: center;
+    color:#fff;
+    opacity: .95;
+    margin-top: 50px;
+    font-size:20px;
+    font-weight: 100;
+    letter-spacing:2px;
+}
+
+.search {
+    width: 80%;
+    display: block;
+    left: 10%;
+    margin-top: 60px;
+    position: relative;
+}
+
+.search input {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    background: #F5F5F5;
+    position: relative;
+    text-align: center;
+    color:#666;
+    font-size:20px;
+    border:none;
+}
+
+.search input:focus {
+    outline: none;
+}
+
+.search i {
+    position: absolute;
+    font-size:20px;
+    right: 20px;
+    color:#999;
+    top: 15px;
+}
+
+.footer {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.footer p {
+    text-align: center;
+    color:#999;
+    font-size:13px;
+}
+
+.container {
+    margin: 40px auto;
+}

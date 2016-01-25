@@ -2,7 +2,7 @@
   "name": "buynow",
   "version": "1.0.0",
   "description": "buynow",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,5 +18,11 @@
   "bugs": {
     "url": "https://github.com/Tuzkiss/Buynow/issues"
   },
-  "homepage": "https://github.com/Tuzkiss/Buynow#readme"
+  "homepage": "https://github.com/Tuzkiss/Buynow#readme",
+  "devDependencies": {
+    "express": "^4.13.4"
+  },
+  "dependencies": {
+    "body-parser": "^1.14.2"
+  }
 }
